@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: 
+    - -D__CLANGD__
+    - -std=c++23
+
+Index:
+  StandardLibrary: Yes
+
+Diagnostics:
+  ClangTidy:
+    Add: 
+      - modernize*
+      - performance*
+    Remove: 
+      - modernize-use-trailing-return-type
+  Suppress: 
+      - module_unimported_use

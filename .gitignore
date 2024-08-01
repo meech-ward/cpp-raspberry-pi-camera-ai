@@ -1,0 +1,88 @@
+build
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Clang-specific
+*.plist
+
+# Dependency directories
+vcpkg_installed/
+
+# Logs
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache and temporary files
+.cache/
+*.cache
+tmp/
+temp/
+
+# ccache (if you're using it)
+.ccache/
+
+# Clangd cache
+.clangd/
